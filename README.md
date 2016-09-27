@@ -1,9 +1,7 @@
 # DI4R 2016 - Visualising Operational Informatics Data Using R
 
 ----------------------------------------------------
-Digital Infrastructures for Research 2016
-Visualising Operational Informatics Data Using R
-by Dr. Leslie McIntosh & Connie Zabarouskaya
+Dr. Leslie McIntosh & Connie Zabarouskaya
 Center for Biomedical Informatics
 Washington University in St. Louis
 ----------------------------------------------------
