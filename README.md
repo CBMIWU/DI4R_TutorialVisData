@@ -1,12 +1,16 @@
 # DI4R 2016 - Visualising Operational Informatics Data Using R
 
-----------------------------------------------------
-Dr. Leslie McIntosh & Connie Zabarouskaya
-Center for Biomedical Informatics
-Washington University in St. Louis
-----------------------------------------------------
+### Credits
+Dr. Leslie McIntosh & Connie Zabarouskaya    
+Center for Biomedical Informatics    
+Washington University in St. Louis    
 
-R installable files
+
+#### Video Tutorials
+[Hands-on rCharts](https://youtu.be/4zWDJ3ORAt4)  
+[Hands-on Shiny Dashboard](https://youtu.be/jUgb4l2obgU)
+
+##R installable files
 
 ###R Installer
 
