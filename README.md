@@ -1,57 +1,31 @@
-# DI4R 2016 - Visualising Operational Informatics Data Using R
+# Digital Infrastructures for Research 2016 - Workshop: Visualising Operational Informatics Data Using R
+
+**[Link to workshop information](https://www.digitalinfrastructures.eu/content/tr-7-visualising-operational-informatics-data-using-r)**
 
 ### Credits
-Dr. Leslie McIntosh & Connie Zabarouskaya    
+Dr. Leslie McIntosh, PhD, MPH & Connie Zabarovskaya, MBA, MITM
+
 Center for Biomedical Informatics    
 Washington University in St. Louis    
-
 
 #### Video Tutorials
 [Hands-on rCharts](https://youtu.be/4zWDJ3ORAt4)  
 [Hands-on Shiny Dashboard](https://youtu.be/jUgb4l2obgU)
 
-##R installable files
+This repository contains R script and data files, and PDF version of the slides used in the workshop at DI4R 2016 Conference in Krakow, Poland on Wednesday, September 28, 2016. If you have any questions please submit an issue to this repo.
 
-###R Installer
+The R scripts can be run inside RStudio, however you must have all the necessary R packages installed. 
 
-For Windows:
-R-3.3.1-win.exe
+## Tutorial Prerequisites
 
-For Macs:
-R-3.3.1.pkg
+While getting ready for the tutorial is optional, it will allow you to follow the instructors during the tutorial and perform the hands-on exercises. The installation steps below will save you time during the tutorial if you have any problems or issues with the installation please let us know.
 
-R 3.3.1 binary for Mac OS X 10.9 (Mavericks) and higher, signed package. Contains R 3.3.1 framework, 
-R.app GUI 1.68 in 64-bit for Intel Macs, Tcl/Tk 8.6.0 X11 libraries and Texinfo 5.2. 
-The latter two components are optional and can be ommitted when choosing "custom install", 
-it is only needed if you want to use the tcltk R package or build package documentation from sources.
-Note: the use of X11 (including tcltk) requires XQuartz to be installed since it is no longer part of OS X. 
-Always re-install XQuartz when upgrading your OS X to a new major version. 
+- Download and Install R: http://cran.wustl.edu/. It may be best to have the latest version of R (or at least 3.0.3), for all libraries to work properly
+- Download and install R-Studio from this web link: https://www.rstudio.com/ide/
+- Install shiny and shinydashboard packages from within R (or R-Studio)
+- Install rCharts from github using the devtools package (see more info here: http://ramnathv.github.io/rCharts/)
 
-###RStudio Installer
-
-For Windows:
-RStudio-0.99.903.exe
-
-For Macs:
-RStudio-0.99.903.dmg
-(RStudio 0.99.903 - Mac OS X 10.6+ (64-bit)) 
-
-###R Packages
-If you are not able to install R packages using install.packages() command from R due to internet connection difficulties, 
-you may try to use the following approach. We installed only the necessary R packages on a fresh R installation
-and archived all the packages, including packages those depend on, into one zip file. You could try to unzip 
-that archive into R library directory, where R would by default install packages. For example, a 
-path to library for packages on R of version 3.3.1 on Windows:
-C:\Users\Username\My Documents\R\win-library\3.3
-If you don't have such a folder, unzip them into "library" folder inside directory where R is installed, e.g.:
-
-C:\Program Files\R\R-3.3.1\library  
-The archive is called: R_3.3_DI4R_tutorial_packages.zip  
-This worked for a Windows machine, but we cannot guarantee this would work on a Mac.
-
+## Attributions
 We would like to thank developers of the following products for the opportunity to use their great tools: 
 - RStudio team - Shiny and shinydashboard packages
 - Ramnath Vaidyanathan - rCharts package  
-- Simon Muller - BulletGraphSipemu.txt
-- Hadley Wickham - plyr package
-
